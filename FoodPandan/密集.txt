@@ -1,0 +1,160 @@
+Hello my name is Ted, My previous work was working in Google,I mainly focusing on the pixel watch, pixel phone and pixel tablet,
+fixed some customer issue or design new features ,some like the app automatic update, audio channel testing, touch screen testing 
+and other issues all of the development are also using the Junit test and recommend using TDD model.
+
+Before Google, my work was related to online gamble. And also I worked in Philippines about 2 years. Major developing mobile phone include iOS and Android. 
+After 1 years, the company helped me rise the team leader  先不要說 { because I have JavaEE development experience before, } 
+so I changed to back-end to development php and mysql do some game logic calculations and API development.
+and I also have social app is about ski the name is gomyski, Is help people who want to ski can find the coach system.
+
+I also have some side-project. cooperation with Chang Gung Hospital to development for internal use (and we using flutter language), 
+another recently large-scale cooperation was with government . Its a mask system app (we use with Kotlin language).
+And I also development a APP for my own interests , The name is Nintendo Switch price comparison system app.
+The front-ends are all designed by myself, including dbbase (here we use Object-C, Android, PHP and Mysql 8.0 language) 
+This app both of iOS and Android are available. Now more than 20,000 download it.
+
+And I have experience with building a website by wordpress system on GCP, this system is one of the commend in bloger system and also become the e-commerce website.(use Linux language)
+
+So in my 10 years of working experience, I have 10 years of Android 5 years of iOS, 3 years of Php and 1 years of Flutter.
+And  I had many Large-scale cooperation projects experience. Let me know how importance of communication and coding style.
+
+SOLID
+
+S - Single-responsiblity Principle 單一職責原則
+O - Open-closed Principle 開放封閉原則 https://www.jyt0532.com/2020/03/19/ocp/
+L - Liskov Substitution Principle  Liskov 替換原則 https://ithelp.ithome.com.tw/articles/10235629
+I - Interface Segregation Principle 介面分割原則 https://www.jyt0532.com/2020/03/23/isp/ 
+D - Dependency Inversion Principle 依賴反向原則 https://ithelp.ithome.com.tw/articles/10191603
+
+Single-responsibility Principle (SRP) states:
+
+A class should have one and only one reason to change, meaning that a class should have only one job.
+
+Open-closed Principle (OCP) states:
+			en得體
+Objects or entities should be open for extension but closed for modification.
+林死卡   撒ㄅ死丟訊
+Liskov Substitution Principle states:
+																							  阿特ring
+If S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desirable properties of the program.
+		  se葛ㄍㄟtion
+Interface segregation principle states:
+
+A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+
+Dependency inversion principle states:
+
+1.High-level modules should not depend on low-level modules. Both should depend on abstractions.
+2.Abstractions should not depend on details. Details should depend on abstractions.
+可以講Programmer -> Programmable <- Computer
+
+你為什麼喜歡我們公司?
+
+Because I have worked in the Philippines before, I like the feeling of being able to work with different countries people. Although my English is not very fluent, I often chat happily with many different countries friends, and someone even keep in touch. So I hope to have the opportunity to work in the your office.
+
+你對我們有什麼好處，為什麼要入取你?
+
+Because I have been a team leader and a back-end engineer before, whether it is cooperation or communication, I will think more in a global way, which can help the team develop more presentational and smooth APPs.
+
+BQ 問題
+
+回答它們的最佳方法是使用STAR 方法。根據策略，每個面試答案應使用以下結構：
+
+S 代表情境：描述故事的情境和背景。
+T 代表任務：描述您為解決問題而必須完成的任務。
+A for Action：解釋您為完成上述任務所採取的步驟。
+R 代表結果：談論你的行動的結果，並儘可能詳細。嘗試在這裡使用數字和數據。
+
+1. Describe a situation... / Tell me about a time, conflict with co-worker/manager
+
+S: 之前我們有個產品頁面反應速度很慢，主管希望我可以解決，所以我花時間去研究這項問題
+T: 我的想法是我們的資料庫設計需要修改，所以找同事說明，但同事覺得修改資料庫會有很多譴在問題，他只想增加緩存就好
+A: 最後我們決定都做看看，我們在我們的測試站分析結果，是我的想法正確，但他提出增加緩存也是不錯的建議，所以我們兩個方法都做
+R: 最後結果我們讓這個任務執行的很成功，我們雙方也很開心的可以一起完成這項任務
+
+S: We had a product page that was slow to respond before, and the supervisor wanted me to fix it, so I took the time to research the problem
+T: My idea is that our database design needs to be modified, so I asked my colleague to explain, but my colleague thinks that there will be many has side effect in the database. He just wants to increase the memory cache.
+A: We decided to do both of them. We analyzed the results on our test station. My idea was correct, but he suggested that increasing the cache is also a good suggestion, so we did both methods.
+R: And the Result, we made this mission very successful, and both of us are very happy to complete this mission together
+
+2. What's your most challenging project / project you are most proud of ?
+
+S: 之前我們iOS有些產品是無法上架的，老闆希望我去研究現在有個技術叫做超級簽名的方式做發布，要我去研究
+T: 我就開始研究網路上一些人的教學，以及自己開始研究，因為除了這個任務，我本身還有其他任務需要去執行
+A: 我與一些資料庫的同事討論與架設資料庫和sever，並開始著手開發
+R: 最後我花了2個多月的時間，終於正式對外上架，老闆因此也有多給我一筆獎金
+
+S: Before, some of our iOS APPs could not be put on the Apple Store. My boss wanted me to study and release because here has technology called super signature. He asked me to study it.
+T: I started to studying int this super signature, find the resource on the Internet, and started to do research myself, because in addition to this task, I myself have other tasks to perform
+A: I discussed and set up the database and server with some database colleagues, and started to develop
+R: In the end, it took me more than 2 months to finally officially put on the shelves, and the boss also gave me an extra bonus.
+
+
+TDD Test-Driven Development
+
+1.The interface designed is hardly from the star, which is easily inapplicable and requires subsequent revisions.
+2.When writing tests later, it is easy to focus on theimplemented functions, and less associations to other user situations.
+3.It is easy to sacrifice test program writing due to lack of project schedule or resources.
+
+ 	怕死
+解析 Parse
+
+RESTful API 設計模式
+https://www.youtube.com/watch?v=gHCB0sd47Is&ab_channel=%E6%B2%88%E5%BC%98%E5%93%B2
+
+以 API 而言，假設我們正在撰寫一組待辦事項的 API，
+可能會有以下方式來作為 API 的 interface:
+
+獲取使用者資料 /getAllUsers
+獲取使用者資料 /getUser/1
+新增使用者資料 /createUser
+更新使用者資料 /updateUser/1
+刪除使用者資料 /deleteUser/1
+
+若是以 REST 風格來開發 RESTful API 的話:
+
+獲取使用者資料 /GET /users
+獲取使用者資料 /GET /user/1
+新增使用者資料 /POST /user
+更新使用者資料 /PUT /user/1
+刪除使用者資料 /DELETE /user/1
+
+The difference between the two is that the RESTful API fully uses the HTTP protocol (GET/POST/PUT/DELETE) to achieve:
+
+With intuitive and concise resource URIs
+And make good use of HTTP Verb
+achieve operations on resources
+And use the data types accepted by the Web: JSON, XML, YAML, etc., the most common is JSON
+
+ 				  羅伯拉tric
+Android單元測試框架Robolectric的學習使用
+https://www.twblogs.net/a/5ee1a0c5edf5522250e44c0f
+
+
+Checked exceptions: These are the exceptions that are checked by the compiler at compile time. If a method throws a checked exception, then the caller of the method must either handle the exception or declare it in the throws clause.
+Unchecked exceptions: These are the exceptions that are not checked by the compiler at compile time. They include runtime exceptions and errors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

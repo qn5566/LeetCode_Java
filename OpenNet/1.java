@@ -1,0 +1,5 @@
+package OpenNet;
+
+class Solution{
+    
+}

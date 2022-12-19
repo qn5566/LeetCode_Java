@@ -1,0 +1,55 @@
+package 搜尋.DFSIsLand;
+
+/**
+ * 試算倒有幾個島嶼
+ * 
+ * Input: grid = [
+ * ["1","1","1","1","0"],
+ * ["1","1","0","1","0"],
+ * ["1","1","0","0","0"],
+ * ["0","0","0","0","0"]
+ * ]
+ * Output: 1
+ * 
+ * Input: grid = [
+ * ["1","1","0","0","0"],
+ * ["1","1","0","0","0"],
+ * ["0","0","1","0","0"],
+ * ["0","0","0","1","1"]
+ * ]
+ * Output: 3
+ */
+class Solution {
+    private int m, n;
+    private int[][] direction = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+
+    public int numIslands(char[][] grid) {
+        if (grid == null || grid.length == 0) {
+            return 0;
+        }
+        m = grid.length;
+        n = grid[0].length;
+        int islandsNum = 0;
+        // 全部一起變遍歷
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] != '0') {
+                    dfs(grid, i, j);
+                    islandsNum++;
+                }
+            }
+        }
+        return islandsNum;
+    }
+
+    // 把附近所有的不是0的點都轉換成0
+    private void dfs(char[][] grid, int i, int j) {
+        if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == '0') {
+            return;
+        }
+        grid[i][j] = '0';
+        for (int[] d : direction) {
+            dfs(grid, i + d[0], j + d[1]);
+        }
+    }
+}
